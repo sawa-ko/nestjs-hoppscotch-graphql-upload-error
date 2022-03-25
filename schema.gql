@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  test: Boolean!
+}
+
+type Mutation {
+  """Test upload avatar."""
+  changeAvatar(avatar: Upload!): Boolean!
+}
+
+"""The `Upload` scalar type represents a file upload."""
+scalar Upload
